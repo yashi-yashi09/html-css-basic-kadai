@@ -1,0 +1,39 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+.google-fonts {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+    font-size: 20px;
+}
+/* h1をhtml(ルート要素)の2倍のフォントにする */
+/* h1の文字間は、文字の大きさに応じて1.2倍 (40pxの1.2倍)*/
+h1{
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    text-shadow: 1px 1px 2px gray;
+    border-bottom: solid 3px rgb(115, 115, 114);
+
+}
+/* h1でspanを使用しMの色を変える */
+.highlightb{
+    color: skyblue;
+}
+/* h1でspanを使用しPの色をピンク変える */
+.highlightp{
+    color: rgb(255, 192, 203);
+}
+/* テキストすべて中央寄せ */
+body{
+    text-align: center;
+}
+
+/* id属性basicのdivタグ */
+/* 問題文の「次に子孫要素の考え方を利用して、」「侍太郎」「1990年1月1日」「O型」を太字にしてください。がよくわからない */
+#basic{
+    font-weight: bold;
+}
